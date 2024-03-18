@@ -4,5 +4,11 @@ spring:
   threads:
     virtual:
       enabled: true
+  docker:
+    compose:
+      skip:
+        in-tests: true
+  aop:
+    auto: true
 logging:
   include-application-name: true
