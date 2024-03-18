@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: EHR Transfer Service
+  threads:
+    virtual:
+      enabled: true
